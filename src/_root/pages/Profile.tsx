@@ -10,7 +10,7 @@ import {
 import { Button } from "@/components/ui";
 import { LikedPosts } from "@/_root/pages";
 import { useUserContext } from "@/context/AuthContext";
-import { useGetUserById } from "@/lib/react-query/queries";
+import { useGetUserById } from "@/lib/react-query/queriesAndMutations";
 import { GridPostList, Loader } from "@/components/shared";
 
 interface StabBlockProps {
