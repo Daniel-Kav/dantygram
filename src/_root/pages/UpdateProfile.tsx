@@ -17,7 +17,7 @@ import { ProfileUploader, Loader } from "@/components/shared";
 
 import { ProfileValidation } from "@/lib/validation";
 import { useUserContext } from "@/context/AuthContext";
-import { useGetUserById, useUpdateUser } from "@/lib/react-query/queries";
+import { useGetUserById, useUpdateUser } from "@/lib/react-query/queriesAndMutations";
 
 const UpdateProfile = () => {
   const { toast } = useToast();
