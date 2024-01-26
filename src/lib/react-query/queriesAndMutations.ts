@@ -55,7 +55,7 @@ export const useSignOutAccount = () => {
 // POST QUERIES
 // ============================================================
 
-export const useGetPosts = () => {
+/**export const useGetPosts = () => {
   return useInfiniteQuery({
     queryKey: [QUERY_KEYS.GET_INFINITE_POSTS],
     queryFn: getInfinitePosts as any,
@@ -71,7 +71,7 @@ export const useGetPosts = () => {
     },
   });
 };
-
+**/
 export const useSearchPosts = (searchTerm: string) => {
   return useQuery({
     queryKey: [QUERY_KEYS.SEARCH_POSTS, searchTerm],
